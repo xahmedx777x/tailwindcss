@@ -6235,7 +6235,7 @@ test('divide-color', () => {
       '-divide-[#0088cc]/[0.5]',
       '-divide-[#0088cc]/[50%]',
     ]),
-  ).toMatchInlineSnapshot(`""`)
+  ).toEqual('')
 })
 
 test('place-self', () => {
